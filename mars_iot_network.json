@@ -1,0 +1,92 @@
+{
+  "network_model": {
+    "name": "mars-trek-iot-dtn",
+    "description": "Topologia DTN entre Host Laptop (MRO Orbiter ipn:1) y ESP32 Rover (ipn:2)",
+    "ion_version": "4.1.3",
+    "nodes": [
+      {
+        "node_id": "mro_orbiter_host",
+        "node_num": 1,
+        "hostname": "192.168.1.100",
+        "services": [
+          { "service_num": 1, "description": "Map Tile & Science Transmitter" },
+          { "service_num": 2, "description": "Rover IR Telemetry Sink" }
+        ],
+        "inducts": [
+          {
+            "protocol": "udp",
+            "endpoint": "192.168.1.100:4556"
+          }
+        ],
+        "outducts": [
+          {
+            "protocol": "udp",
+            "destination_node": 2,
+            "endpoint": "192.168.1.105:4556",
+            "max_payload_length": 1400
+          }
+        ]
+      },
+      {
+        "node_id": "esp32_mars_rover",
+        "node_num": 2,
+        "hostname": "192.168.1.105",
+        "services": [
+          { "service_num": 1, "description": "OLED Map & LCD Params Receiver" },
+          { "service_num": 2, "description": "IR Sensor & Nav Uplink" }
+        ],
+        "inducts": [
+          {
+            "protocol": "udp",
+            "endpoint": "192.168.1.105:4556"
+          }
+        ],
+        "outducts": [
+          {
+            "protocol": "udp",
+            "destination_node": 1,
+            "endpoint": "192.168.1.100:4556",
+            "max_payload_length": 1400
+          }
+        ]
+      }
+    ],
+    "contacts": [
+      {
+        "comment": "Pase Orbital 1: Enlace activo durante 15 min (100 KB/s, OWLT 3s)",
+        "source_node": 1,
+        "dest_node": 2,
+        "start_time": "+0",
+        "end_time": "+900",
+        "rate_bytes_per_sec": 100000,
+        "owlt_sec": 3
+      },
+      {
+        "source_node": 2,
+        "dest_node": 1,
+        "start_time": "+0",
+        "end_time": "+900",
+        "rate_bytes_per_sec": 50000,
+        "owlt_sec": 3
+      },
+      {
+        "comment": "ENTRE +900 y +1020 HAY BLACKOUT ORBITAL (Store-and-Forward activo en SDR)",
+        "comment_2": "Pase Orbital 2: Reanudacion de contacto de +1020 a +3600",
+        "source_node": 1,
+        "dest_node": 2,
+        "start_time": "+1020",
+        "end_time": "+3600",
+        "rate_bytes_per_sec": 100000,
+        "owlt_sec": 3
+      },
+      {
+        "source_node": 2,
+        "dest_node": 1,
+        "start_time": "+1020",
+        "end_time": "+3600",
+        "rate_bytes_per_sec": 50000,
+        "owlt_sec": 3
+      }
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+[2026/11/15-02:27:04] Stopping ionadmin.
+[2026/11/15-02:27:04] [i] rfxclock is running.
+[2026/11/15-02:27:04] [i] No congestion collapse predicted.
+[2026/11/15-02:27:04] [i] ionwarn finished.
+[2026/11/15-02:27:05] [i] No congestion collapse predicted.
+[2026/11/15-02:27:05] [i] ionwarn finished.
+[2026/11/15-02:27:05] [i] This node deploys bundle protocol version 7.
+[2026/11/15-02:27:05] [i] CBR/CT (Compressed Bundle Reporting and Custody Transfer) is enabled.
+[2026/11/15-02:27:05] [?] Can't find ION security database.
+[2026/11/15-02:27:05] [?] Warning: running without bundle security.
+[2026/11/15-02:27:05] [i] Bundle security is enabled.
+[2026/11/15-02:27:05] Stopping bpadmin.
+[2026/11/15-02:27:05] at line 2706 of /home/vladsamsa/projects/ion-core/external/ION-DTN/ici/library/platform_sm.c, Can't execute new process, exiting...: No such file or directory (cpsd)
+[2026/11/15-02:27:05] [?] Can't find ION security database.
+[2026/11/15-02:27:05] [?] Can't find ION security database.
+[2026/11/15-02:27:05] [i] bpclock is running.
+[2026/11/15-02:27:05] [i] ipnadminep is running.
+[2026/11/15-02:27:05] [?] Can't find ION security database.
+[2026/11/15-02:27:05] [?] Can't find ION security database.
+[2026/11/15-02:27:05] [?] Can't find ION security database.
+[2026/11/15-02:27:05] udpclo resolved 192.168.1.105:4556 to 192.168.1.105:4556 (IPv4)
+[2026/11/15-02:27:05] [i] bptransit is running.
+[2026/11/15-02:27:05] [i] udpclo is running, spec='192.168.1.105:4556' resolved to 192.168.1.105:4556 (IPv4)
+[2026/11/15-02:27:05] [i] ipnfw is running.
+[2026/11/15-02:27:05] [?] Can't find ION security database.
+[2026/11/15-02:27:06] [x] src from 1969/12/31-18:00:00 to 2026/11/15-02:27:06: (0) 0 0 (1) 0 0 (2) 0 0 (+) 0 0
+[2026/11/15-02:27:06] [x] fwd from 1969/12/31-18:00:00 to 2026/11/15-02:27:06: (0) 0 0 (1) 0 0 (2) 0 0 (+) 0 0
+[2026/11/15-02:27:06] [x] xmt from 1969/12/31-18:00:00 to 2026/11/15-02:27:06: (0) 0 0 (1) 0 0 (2) 0 0 (+) 0 0
+[2026/11/15-02:27:06] [x] rcv from 1969/12/31-18:00:00 to 2026/11/15-02:27:06: (0) 0 0 (1) 0 0 (2) 0 0 (+) 0 0
+[2026/11/15-02:27:06] [x] dlv from 1969/12/31-18:00:00 to 2026/11/15-02:27:06: (0) 0 0 (1) 0 0 (2) 0 0 (+) 0 0
+[2026/11/15-02:27:06] [x] rfw from 1969/12/31-18:00:00 to 2026/11/15-02:27:06: (0) 0 0 (1) 0 0 (2) 0 0 (+) 0 0
+[2026/11/15-02:27:06] [x] exp from 1969/12/31-18:00:00 to 2026/11/15-02:27:06: (0) 0 0 (1) 0 0 (2) 0 0 (+) 0 0
+[2026/11/15-02:27:06] [?] Can't find ION security database.
+[2026/11/15-02:27:06] [?] Unknown duct: udp/${MY_IP}:4556
+[2026/11/15-02:27:06] [?]   Attaching duct to plan: ipn:1.0
+[2026/11/15-02:27:06] Stopping ipnadmin.
+[2026/11/15-02:27:06] [?] Can't find ION security database.
+[2026/11/15-02:27:06] [i] bpclm is running: ipn:1.0
+[2026/11/15-02:27:06] [?] Can't find ION security database.
+[2026/11/15-02:27:06] [i] bpclm is running: ipn:2.0
+[2026/11/15-02:27:06] at line 396 of /home/vladsamsa/projects/ion-core/external/ION-DTN/ici/library/ion_network.c, Network address resolution failed (getaddrinfo failed for ${MY_IP}:4556 - Name or service not known)
+[2026/11/15-02:27:06] at line 208 of /home/vladsamsa/projects/ion-core/external/ION-DTN/bpv7/udp/libudpcla.c, Can't resolve UDP CLA address (${MY_IP}:4556)
+[2026/11/15-02:27:06] at line 219 of /home/vladsamsa/projects/ion-core/external/ION-DTN/bpv7/udp/udpcli.c, Can't initialize UDP CLA socket (${MY_IP}:4556)
+[2026/11/15-02:27:07] [i] No congestion collapse predicted.
+[2026/11/15-02:27:07] [i] ionwarn finished.
+[2026/11/15-02:27:07] [x] src from 1969/12/31-18:00:00 to 2026/11/15-02:27:07: (0) 0 0 (1) 0 0 (2) 0 0 (+) 0 0
+[2026/11/15-02:27:07] [x] fwd from 1969/12/31-18:00:00 to 2026/11/15-02:27:07: (0) 0 0 (1) 0 0 (2) 0 0 (+) 0 0
+[2026/11/15-02:27:07] [x] xmt from 1969/12/31-18:00:00 to 2026/11/15-02:27:07: (0) 0 0 (1) 0 0 (2) 0 0 (+) 0 0
+[2026/11/15-02:27:07] [x] rcv from 1969/12/31-18:00:00 to 2026/11/15-02:27:07: (0) 0 0 (1) 0 0 (2) 0 0 (+) 0 0
+[2026/11/15-02:27:07] [x] dlv from 1969/12/31-18:00:00 to 2026/11/15-02:27:07: (0) 0 0 (1) 0 0 (2) 0 0 (+) 0 0
+[2026/11/15-02:27:07] [x] rfw from 1969/12/31-18:00:00 to 2026/11/15-02:27:07: (0) 0 0 (1) 0 0 (2) 0 0 (+) 0 0
+[2026/11/15-02:27:07] [x] exp from 1969/12/31-18:00:00 to 2026/11/15-02:27:07: (0) 0 0 (1) 0 0 (2) 0 0 (+) 0 0
+[2026/11/15-02:37:12] [?] Can't find ION security database.
+[2026/11/15-02:37:12] [i] bpsendfile is running.
+[2026/11/15-02:37:12] [i] bpsendfile is sending '/tmp/mars_tile_ce7k1prl.bin', size 1052, to ipn:2.1.
+[2026/11/15-02:37:12] [i] bpsendfile sent '/tmp/mars_tile_ce7k1prl.bin', size 1052.
+[2026/11/15-02:37:12] [i] bpsendfile has stopped.
+[2026/11/15-02:37:12] at line 2899 of /home/vladsamsa/projects/ion-core/external/ION-DTN/ici/library/zco.c, ZCO can't open source file: No such file or directory (/tmp/mars_tile_ce7k1prl.bin)
+[2026/11/15-02:37:12] at line 443 of /home/vladsamsa/projects/ion-core/external/ION-DTN/bpv7/udp/libudpcla.c, Can't issue from ZCO.
+[2026/11/15-02:37:12] [i] udpclo duct has ended.
+[2026/11/15-02:37:39] [?] Can't find ION security database.
+[2026/11/15-02:37:39] [i] Start of statistics snapshot...
+[2026/11/15-02:37:39] [x] src from 1969/12/31-18:00:00 to 2026/11/15-02:37:39: (0) 0 0 (1) 1 1052 (2) 0 0 (+) 1 1052
+[2026/11/15-02:37:39] [x] fwd from 1969/12/31-18:00:00 to 2026/11/15-02:37:39: (0) 0 0 (1) 0 0 (2) 0 0 (+) 1 1052
+[2026/11/15-02:37:39] [x] xmt from 1969/12/31-18:00:00 to 2026/11/15-02:37:39: (0) 0 0 (1) 1 1052 (2) 0 0 (+) 1 1052
+[2026/11/15-02:37:39] [x] rcv from 1969/12/31-18:00:00 to 2026/11/15-02:37:39: (0) 0 0 (1) 0 0 (2) 0 0 (+) 0 0
+[2026/11/15-02:37:39] [x] dlv from 1969/12/31-18:00:00 to 2026/11/15-02:37:39: (0) 0 0 (1) 0 0 (2) 0 0 (+) 0 0
+[2026/11/15-02:37:39] [x] rfw from 1969/12/31-18:00:00 to 2026/11/15-02:37:39: (0) 0 0 (1) 0 0 (2) 0 0 (+) 0 0
+[2026/11/15-02:37:39] [x] exp from 1969/12/31-18:00:00 to 2026/11/15-02:37:39: (0) 0 0 (1) 0 0 (2) 0 0 (+) 0 0
+[2026/11/15-02:37:39] [i] ...end of statistics snapshot.
+[2026/11/15-02:57:14] [i] No congestion collapse predicted.
+[2026/11/15-02:57:14] [i] ionwarn finished.
+[2026/11/15-03:10:59] [?] Can't find ION security database.
+[2026/11/15-03:10:59] [i] bpsendfile is running.
+[2026/11/15-03:10:59] [i] bpsendfile is sending '/tmp/mars_tile_pnzelszc.bin', size 1052, to ipn:2.1.
+[2026/11/15-03:10:59] [i] bpsendfile sent '/tmp/mars_tile_pnzelszc.bin', size 1052.
+[2026/11/15-03:10:59] [i] bpsendfile has stopped.
+[2026/11/15-03:12:22] [?] Can't find ION security database.
+[2026/11/15-03:12:22] [i] Start of statistics snapshot...
+[2026/11/15-03:12:22] [x] src from 1969/12/31-18:00:00 to 2026/11/15-03:12:22: (0) 0 0 (1) 2 2104 (2) 0 0 (+) 2 2104
+[2026/11/15-03:12:22] [x] fwd from 1969/12/31-18:00:00 to 2026/11/15-03:12:22: (0) 0 0 (1) 0 0 (2) 0 0 (+) 2 2104
+[2026/11/15-03:12:22] [x] xmt from 1969/12/31-18:00:00 to 2026/11/15-03:12:22: (0) 0 0 (1) 2 2104 (2) 0 0 (+) 2 2104
+[2026/11/15-03:12:22] [x] rcv from 1969/12/31-18:00:00 to 2026/11/15-03:12:22: (0) 0 0 (1) 0 0 (2) 0 0 (+) 0 0
+[2026/11/15-03:12:22] [x] dlv from 1969/12/31-18:00:00 to 2026/11/15-03:12:22: (0) 0 0 (1) 0 0 (2) 0 0 (+) 0 0
+[2026/11/15-03:12:22] [x] rfw from 1969/12/31-18:00:00 to 2026/11/15-03:12:22: (0) 0 0 (1) 0 0 (2) 0 0 (+) 0 0
+[2026/11/15-03:12:22] [x] exp from 1969/12/31-18:00:00 to 2026/11/15-03:12:22: (0) 0 0 (1) 0 0 (2) 0 0 (+) 0 0
+[2026/11/15-03:12:22] [i] ...end of statistics snapshot.
